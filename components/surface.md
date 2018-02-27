@@ -11,6 +11,8 @@ render(){
 }
 ```
 
+Note that the `<Surface/>` element has default background color. You can remove it by using `backgroundColor: 'transparent'` in the node's `style` prop. 
+
 #### Props
 
 - [View props...](https://facebook.github.io/react-native/docs/view.html#props)
@@ -45,8 +47,3 @@ The visibility of the object
 | Type   | Required |
 |:------:|:--------:|
 | bool   | No       |
-
-> Tip: <Surface/> element has default background color.
->
-> make it transparent with `style={{ backgroundColor:'transparent' }}` and things below it can be seen.
-
